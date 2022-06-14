@@ -1,3 +1,96 @@
+Package: awscli
+Version: 1.22.34-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10113
+Depends: groff, python3, python3-botocore (>= 1.20.0), python3-pyasn1, python3-colorama, python3-docutils, python3-rsa, python3-s3transfer, python3-yaml, python3:any
+Filename: ./awscli_1.22.34-1_all.deb
+Size: 1171932
+MD5sum: 4eb2e6d90ff9152884ff6aab493eb766
+SHA1: 9edb0a8d5ca7187548b639f9f00d5f8811e2727d
+SHA256: 71db7ef9281f8fc628bae8a52a097ec5317fdde776b7f2dbaaed217216b351d5
+Section: admin
+Priority: optional
+Homepage: https://aws.amazon.com/cli/
+Description: Universal Command Line Environment for AWS
+ This package provides a unified command line interface to many
+ Amazon Web Services.
+ .
+ A partial listing of these services is:
+ .
+  * AWS CloudFormation
+  * AWS Data Pipeline
+  * AWS Direct Connect
+  * Amazon DynamoDB
+  * AWS Elastic Beanstalk
+  * AWS Elemental MediaConvert
+  * AWS Identity and Access Management
+  * AWS Import/Export
+  * AWS OpsWorks
+  * AWS Security Token Service
+  * AWS Storage Gateway
+  * Amazon CloudFront
+  * Amazon CloudWatch
+  * Amazon ElastiCache
+  * Amazon Elastic Compute Cloud
+  * Amazon Elastic Container Registry
+  * Amazon Elastic Container Service
+  * Amazon Elastic Kubernetes Service
+  * Amazon Elastic MapReduce
+  * Amazon Redshift
+  * Amazon Relational Database Service
+  * Amazon Route 53
+  * Amazon Simple Email Service
+  * Amazon Simple Notification Service
+  * Amazon Simple Queue Service
+  * Amazon Simple Storage Service
+  * Amazon Simple Workflow Service
+  * Auto Scaling
+  * Elastic Load Balancing
+Original-Maintainer: Debian Cloud Team <debian-cloud@lists.debian.org>
+
+Package: copyq
+Version: 3.13.0-1
+Architecture: amd64
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Installed-Size: 4816
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5script5 (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.8), libx11-6, libxtst6
+Recommends: copyq-plugins (= 3.13.0-1)
+Suggests: copyq-doc
+Filename: ./copyq_3.13.0-1_amd64.deb
+Size: 1300872
+MD5sum: b568909eecd206dc0246f69b0a526ce3
+SHA1: 4af978f85cbb6f50aa84689c83a0d620e1856eb4
+SHA256: 7f28ef500eacdc0a6577560b162b2aa4208f4c4b2faae1987e09f4f62a2c5619
+Section: utils
+Priority: optional
+Homepage: https://hluk.github.io/CopyQ/
+Description: Advanced clipboard manager with editing and scripting features
+ CopyQ monitors system clipboard and saves its content in customized tabs.
+ Saved clipboard can be later copied and pasted directly into any application.
+ .
+ Items can be:
+  * edited with internal editor or with preferred text editor,
+  * moved to other tabs,
+  * drag'n'dropped to applications,
+  * marked with tag or a note,
+  * passed to or changed by custom commands,
+  * or simply removed.
+ .
+ Features:
+  * Support for Linux, Windows and OS X 10.9+
+  * Store text, HTML, images or any other custom formats
+  * Quickly browse and filter items in clipboard history
+  * Sort, create, edit, remove, copy/paste, drag'n'drop items in tabs
+  * Add notes or tags to items
+  * System-wide shortcuts with customizable commands
+  * Paste items with shortcut or from tray or main window
+  * Fully customizable appearance
+  * Advanced command-line interface and scripting
+  * Ignore clipboard copied from some windows or containing some text
+  * Support for simple Vim-like editor and shortcuts
+  * Many more features
+
 Package: filezilla-common
 Source: filezilla
 Version: 3.24.0-1
@@ -24,28 +117,59 @@ Description: Architecture independent files for filezilla
  This package contains architecture independent files such as images and
  translations.
 
-Package: libc6
-Source: glibc
-Version: 2.33-7
+Package: ike-qtgui
+Source: ike
+Version: 2.2.1+dfsg-6
 Architecture: amd64
-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Installed-Size: 12878
-Depends: libgcc-s1
-Recommends: libidn2-0 (>= 2.0.5~)
-Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus
-Breaks: aide (<< 0.17.3-4+b3), busybox (<< 1.30.1-6), fakechroot (<< 2.19-3.5), hurd (= 1:0.9.git20210404-8), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.33), locales-all (<< 2.33), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.33), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), python3-iptables (<< 1.0.0-2), r-cran-later (<< 0.7.5+dfsg-2), tinydns (<< 1:1.05-14), wcc (<< 0.0.2+dfsg-3)
-Replaces: libc6-amd64
-Filename: ./libc6_2.33-7_amd64.deb
-Size: 2843204
-MD5sum: 2961c69de0aa35e1ba0e7ea29496dcc3
-SHA1: fd78f2096bc34da10f14e4fba9792b28279653b5
-SHA256: 5f1e606f23228d9a9c2e11417a0886e14fab905acf03e0832346b72a53770ff3
-Section: libs
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 434
+Depends: ike, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 5)
+Recommends: ike (>= 2.2.1+dfsg-6)
+Filename: ./ike-qtgui_2.2.1+dfsg-6_amd64.deb
+Size: 127002
+MD5sum: ff47b1ee232620fa8fa22c5d109e1a16
+SHA1: 9529c450eb86611d12e25678bfc612a604c37534
+SHA256: ed384bfd30757ae2f82a27fa9a53e497faf5601954cbb2e4b935e1ed421e93f3
+Section: net
+Priority: extra
+Homepage: http://www.shrew.net/
+Description: Shrew Soft VPN client - Connection manager
+ The Shrew Soft VPN Client is a free IPsec VPN Client for FreeBSD, NetBSD,
+ Linux and Windows operating systems. This product can be used to communicate
+ with Open Source VPN servers (e.g. ipsec-tools) as well as some commercial
+ VPN servers.
+ .
+ This package provides the connection manager program, which allows one
+ to create, manage and use VPN connections.
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+
+Package: jq
+Version: 1.6-2.1ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 100
+Depends: libjq1 (= 1.6-2.1ubuntu3), libc6 (>= 2.34)
+Filename: ./jq_1.6-2.1ubuntu3_amd64.deb
+Size: 52506
+MD5sum: cf8b305b48fbc2a47863e56ca01211c7
+SHA1: b985d5815b743fc2f406b74f1d40ff638dc1efdd
+SHA256: d7dd9f0441f1aea2e30e067e5fabbff96d4960b5d348de2c48fab90f37720224
+Section: utils
 Priority: optional
-Multi-Arch: same
-Homepage: https://www.gnu.org/software/libc/libc.html
-Description: GNU C Library: Shared libraries
- Contains the standard libraries that are used by nearly all programs on
- the system. This package includes shared versions of the standard C library
- and the standard math library, as well as many others.
+Multi-Arch: foreign
+Homepage: https://github.com/stedolan/jq
+Description: lightweight and flexible command-line JSON processor
+ jq is like sed for JSON data – you can use it to slice
+ and filter and map and transform structured data with
+ the same ease that sed, awk, grep and friends let you
+ play with text.
+ .
+ It is written in portable C, and it has minimal runtime
+ dependencies.
+ .
+ jq can mangle the data format that you have into the
+ one that you want with very little effort, and the
+ program to do so is often shorter and simpler than
+ you’d expect.
+Original-Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 
