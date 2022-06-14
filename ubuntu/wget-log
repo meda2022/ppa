@@ -1,0 +1,11 @@
+--2022-06-14 07:11:33--  https://meda2022.github.io/ppa/ubuntu/KEY.gpg
+Resolving meda2022.github.io (meda2022.github.io)... 185.199.108.153, 185.199.109.153, 185.199.110.153, ...
+Connecting to meda2022.github.io (meda2022.github.io)|185.199.108.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3126 (3.1K) [application/octet-stream]
+Saving to: ‘STDOUT’
+
+-                                           0%[                                                                                     ]       0  --.-KB/s               -                                         100%[====================================================================================>]   3.05K  --.-KB/s    in 0s      
+
+2022-06-14 07:11:33 (33.4 MB/s) - written to stdout [3126/3126]
+
